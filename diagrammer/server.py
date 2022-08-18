@@ -1,6 +1,6 @@
 from localstack.http import Request
 from localstack.http.dispatcher import Handler, ResultValue
-from diagrammer import Diagrammer
+from diagrammer.diagrammer import Diagrammer
 
 
 class RequestHandler(Handler):

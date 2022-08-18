@@ -32,3 +32,8 @@ To distribute your extension, simply upload it to your github account. Your exte
 ```bash
 localstack extensions install "git+https://github.com/janedoe/diagrammer/#egg=diagrammer"
 ```
+
+
+needs graphviz installed in docker by adding 
+`apt-get install graphviz -y`
+to bootstrap.py
